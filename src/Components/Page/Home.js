@@ -11,8 +11,7 @@ function Home() {
              <HeroSection />
              <AboutSection />
              <Branches />
-             <Subscrib />
-             <Footer />
+              <Footer />
          </div>
     )
 }

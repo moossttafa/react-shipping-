@@ -5,7 +5,7 @@ import AboutSection from '../AboutSection'
 
 function About() {
     return (
-        <div className="about-section">
+    <div className="about-section">
        <PageHero title="about" />
       <AboutSection />
     <Footer /> 

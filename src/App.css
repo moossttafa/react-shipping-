@@ -304,3 +304,48 @@
         background-color: #17223e;
         border: 2px solid #17223e;
       }
+      /*chapping page*/
+      .MuiStepIcon-root.MuiStepIcon-active{
+        color: #5ac9fe !important ;
+      }
+      /*step one*/
+      .intl-tel-input.allow-dropdown input,
+      .intl-tel-input.allow-dropdown input[type=text],
+      .intl-tel-input.allow-dropdown input[type=tel]{
+         height: 3.5rem;
+         width: 100%;
+         border-radius: 5px;
+         border: 1px solid rgb(182,181,181);
+      }
+    
+      @media (max-width: 768px){
+      .makeStyles-root-1{
+        width: 95% !important;
+           
+      }
+    }
+    .makeStyles-root-1{
+      margin: 3rem auto !important;
+    }
+    .MuiFormHelperText-root{
+      color: rgb(255 0 0 / 54%) !important;
+
+    }
+    .MuiFilledInput-root{
+          background-color: rgb(251 251 251) !important; 
+    }
+    .MuiFormLabel-root.Mui-focused{
+      color:#5ac9fe !important
+    }
+    .MuiFilledInput-underline:after{
+          border-bottom: 2px solid #5ac9fe !important; 
+    }
+    .MuiFilledInput-root{
+          margin-top: 5px !important; 
+    }
+
+@media (max-width: 768px){
+        .MuiFilledInput-input {
+          padding: 17px 12px 10px !important;
+        }
+    }
