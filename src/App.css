@@ -148,6 +148,8 @@
   @media (max-width: 768px){
     .portfolio .item-box {
         margin-top: 20px;
+        padding-bottom: 10px;
+
     }
   }
   /*subscribe Component*/

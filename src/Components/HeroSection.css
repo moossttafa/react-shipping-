@@ -1,59 +1,46 @@
+.hero-section{ 
+    background: url(../img/home-banner.png) no-repeat 0% 50%;
+    padding: 125px 0px;
+} 
  
-
-.hero-section{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0 ,0, 0, 0.2);
-    object-fit: contain;
-}
-.hero-section .banner{
-    width: 100%;
-    height: 100%;
-    display: table;
-    position: relative;
-}
-.head-info{
-    display: table-cell;
-    vertical-align: middle;
-    min-height: 100%;
-    height: 90vh;
-}
 .hero-section .info{
- }
-.hero-section .cont-img {
-    height: 600px;
-    width: 90%;
- }
-.hero-section .cont-img img {
-    width: 100%;
-    height: 60%;
-     z-index: 1;
- }
-.hero-section > h1 {
-    color: #FFF;
-    font-size: 50px;
- }
-.hero-section > p{
-    margin-top: 8px;
-    color: #FFF;
-    font-size: 25px;
-    font-family: sans-serif;
+    text-align: left;
+    padding-top: 35px
 }
-@media screen and (max-width : 960px){
-    .hero-section > h1{
-        font-size: 25px; 
+.hero-section .info h3{
+    padding-top: 35px;
+    font-weight: 700
+}
+.hero-section .info h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: #000;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+ }
+.hero-section .info h1{
+    font-size: 3rem;
+ }
+ .hero-section .info p{
+    font-size: 1.5rem;
+ }
+ .hero-section .info .btn {
+    border: 1px solid #5ac9fe;
+    color: #5ac9fe
+ }
+ .hero-section .cont-img img{
+    width: 70%;
+ }
+ @media (max-width: 768px){
+    .hero-section{ 
+         padding: 25px 0px;
+    } 
+    .hero-section .cont-img img{
+        width: 100%;
     }
-    .hero-section > p{ 
-        font-size: 15px;
-     }
-}
-@media screen and (max-width : 768px){
-    
-}
-@media screen and (max-width : 960px){
-    
-}
+    .hero-section .info h1{
+        font-size: 2.5rem;
+    }
+ }
