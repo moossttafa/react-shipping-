@@ -6,9 +6,11 @@ import Navbar from './Components/Navbar/Navbar';
 import About from './Components/Page/About';
 import Chapping from './Components/Page/chapping';
 import ContactUs from './Components/Page/ContactUs';
+import {SignInOutContainer} from './Components/Page/Register';
 
 function App() {
-  return (
+ 
+  return ( 
     <Router>
       <Navbar />
       <Switch>
@@ -23,6 +25,9 @@ function App() {
          </Route>
          <Route path="/shapping">
            <Chapping />
+         </Route>
+         <Route path="/register">
+           <SignInOutContainer />
          </Route>
       </Switch>
     </Router>

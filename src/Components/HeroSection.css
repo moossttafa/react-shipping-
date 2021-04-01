@@ -1,5 +1,6 @@
+ 
+
 .hero-section{
-    background: url("./international-moving-and-shipping-company-min.jpg") center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -9,6 +10,29 @@
     box-shadow: inset 0 0 0 1000px rgba(0 ,0, 0, 0.2);
     object-fit: contain;
 }
+.hero-section .banner{
+    width: 100%;
+    height: 100%;
+    display: table;
+    position: relative;
+}
+.head-info{
+    display: table-cell;
+    vertical-align: middle;
+    min-height: 100%;
+    height: 90vh;
+}
+.hero-section .info{
+ }
+.hero-section .cont-img {
+    height: 600px;
+    width: 90%;
+ }
+.hero-section .cont-img img {
+    width: 100%;
+    height: 60%;
+     z-index: 1;
+ }
 .hero-section > h1 {
     color: #FFF;
     font-size: 50px;

@@ -43,6 +43,8 @@
     font-size: 18px;
     font-weight: 700px;
     text-transform: uppercase;
+    text-align: left;
+
   }
   
   .about-one .about-box-text .sec-title .sec-title-headline .handline-title {
@@ -50,6 +52,8 @@
     font-weight: 600;
     margin: 15px 0px 25px 0px;
     text-transform: uppercase;
+    text-align: left;
+    color: #324d67;
   }
   
   .about-one .about-box-text .about-text {
@@ -60,7 +64,7 @@
     margin-bottom: 22px;
     position: relative;
     padding-right: 20px;
-    text-align: end;
+    text-align: left;
 
   }
   
@@ -71,7 +75,7 @@
     width: 2px;
     height: 96%;
     top: 3%;
-    right: 0px;
+    left : -12px;
   }
   @media (max-width: 991px){
     .about-one .about-box-img .box-img{
@@ -130,7 +134,10 @@
   
   .portfolio .item-box h3 {
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: system-ui;
     color: #d7d7d7;
   }
   
@@ -233,8 +240,8 @@
         -webkit-box-flex: 1;
             -ms-flex: 1;
                 flex: 1;
-         padding: 14px 21px;
-        font-size: 16px;
+         padding: 12px 10px;
+         font-size: 15px;
         color: #293043;
         background: #ddd;
         border: none;
@@ -245,8 +252,8 @@
       }
       
       footer .footer-newsletter-form .btn-1 {
-        padding: 14px 30px;
-        font-size: 16px;
+        padding: 12px 10px;
+        font-size: 15px;
         color: #f1f1f1;
         background: #324d67;
         border: none;
@@ -258,8 +265,10 @@
         -webkit-transition: opacity 0.3s linear;
         transition: opacity 0.3s linear;
         margin-top: 10px;
+        margin-right: auto;
+
        }
-      /*contactUs page*/
+      /*************************************************contactUs page*********************************/
       .contact-us {
         padding: 100px 0px;
       }
@@ -304,11 +313,14 @@
         background-color: #17223e;
         border: 2px solid #17223e;
       }
-      /*chapping page*/
+      /*****************************************chapping page*************************************/
       .MuiStepIcon-root.MuiStepIcon-active{
         color: #5ac9fe !important ;
       }
-      /*step one*/
+      .makeStyles-root-33{
+        margin: 4rem auto;
+      }
+      /*************************************step one*********************************/
       .intl-tel-input.allow-dropdown input,
       .intl-tel-input.allow-dropdown input[type=text],
       .intl-tel-input.allow-dropdown input[type=tel]{
@@ -332,7 +344,8 @@
 
     }
     .MuiFilledInput-root{
-          background-color: rgb(251 251 251) !important; 
+      background-color: rgb(253 253 253) !important;
+
     }
     .MuiFormLabel-root.Mui-focused{
       color:#5ac9fe !important
@@ -348,4 +361,19 @@
         .MuiFilledInput-input {
           padding: 17px 12px 10px !important;
         }
+    }
+    /*********************************Login**********************************************/
+    .MuiTypography-body1{
+      text-align: initial;
+
+    }
+    .MuiInputBase-input{
+      margin-top: 10px;
+    }
+    .MuiFormControlLabel-root{
+      margin-top: 15px ;
+      margin-bottom: 15px ; 
+    }
+    .MuiTypography-colorPrimary{
+      color: #608daf;
     }

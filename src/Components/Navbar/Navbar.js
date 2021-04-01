@@ -67,12 +67,12 @@ window.addEventListener("scroll" , changeBackground);
                     </li>
                     <li className ="nav-btn">
                         {button ? (
-                            <Link to="/" className="btn-link">
+                            <Link to="/register" className="btn-link">
                                 <Button  buttonStyle="btn--outline">   SignUp
                                 </Button>
                             </Link>
                         ): (
-                            <Link to="/" className="btn-link"  onClick={closeMobileMenu}>
+                            <Link to="/register" className="btn-link"  onClick={closeMobileMenu}>
                                 <Button buttonStyle="btn--outline" 
                                         buttonSize="btn--mobile">
                                 SignUp
