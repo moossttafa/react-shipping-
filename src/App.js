@@ -19,9 +19,10 @@ function App() {
   return ( 
     <>
      {isLoading==true ? (
-      <Loading style={{ position: "absolute ", top: "40%" , left: "50%"}}
+      <Loading style={{ margin:  "50% 35% "}}
+      type="Grid"
        type="Puff"
-       color="#00BFFF"
+        color="#00BFFF"
        height={100}
        width={100}
        timeout={3000} //3 secs
@@ -48,7 +49,7 @@ function App() {
          </Route>
       </Switch>
     </Router>
-  };
+  }
   </>
    );
 }
