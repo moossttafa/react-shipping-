@@ -61,7 +61,8 @@ function Chapping() {
   
     return (
         <Fragment>
-       <PageHero title="chapping" />
+       <PageHero title="
+       Shapping" />
     <div className={classes.root}>
       <Stepper activeStep={activeStep} alternativeLabel>
         {steps.map((label) => (
