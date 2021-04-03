@@ -340,7 +340,7 @@
       }
     
       @media (max-width: 768px){
-      .makeStyles-root-1{
+      .makeStyles-root-1 , .jss1{
         width: 95% !important;
            
       }
